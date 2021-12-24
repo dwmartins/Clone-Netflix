@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <!-- Meta tags Obrigatórias -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!--normalize-->
+    <link rel="stylesheet" type="text/css" href="css/normalize.css">
+
+    <!--Style css-->
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    
+    <!--Font Awesome -->
+    <script src="https://kit.fontawesome.com/b57ab3d1e8.js" crossorigin="anonymous"></script>
+
+    <!--[if lt IE 9]> 
+        <script src="js/html5shiv.js"></script>
+        <![endif]-->
+
+    <title>Netflix</title>
+    
+  </head>
+  <body>
+    
+    <section id="home"> <!--Layout-->
+
+      <nav>
+        <img class="logo" src="./img/logo.png">
+
+          <div class="navegacao">
+
+            <div class="lang">
+              <i class="fas fa-globe"></i>
+              <select class="language" data-uia="language-icker-header" tabindex="0" placeholder="lang-switche">
+
+                <option selected lang="pt" value="/br/" data-language="pt" data-contry="BR">Português</option>
+                <option lang="en" value="/br-en/" data-language="en" data-contry="BR">English</option>
+
+              </select>
+            </div>
+
+            <input class="btn-entrar" type="submit" value="Entrar">
+            
+          </div>
+
+      </nav>
+
+      <div class="container">
+
+        <div class="layout">
+
+          <h1>Filmes, séries e muito mais. Sem limites.</h1>
+
+          <p>Assista onde quiser. Cancele quando quiser.</p>
+
+          <p>Pronto para assistir? Informe seu email para criar ou reiniciar sua assinatura.</p>
+
+          <div class="busca">
+            <div class="buscador">
+              <input type="text" placeholder="Email">
+            </div>
+  
+            <div class="criar-conta">
+              <button>
+                 <span>Vamos lá</span> 
+                 <span> <i class="fas fa-angle-right"></i> </span>
+              </button>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </section> <!--Fim /Layout-->
+
+    <section id="conteudos"> <!--Conteudos-->
+
+      <div class="smart">
+
+        <div class="smart-text">
+
+          <div class="conteudos-text">
+            <h1>Aproveite na TV.</h1>
+            <h3>Assista em Smart TVs, PlayStation, Xbox, Chromecast, Apple TV, aparelhos de Blu-ray e outros dispositivos.</h3>
+          </div>
+
+        </div>
+
+        <div class="tv">
+          
+          <img class="img-tv" src="./img/tv.png" alt="">
+
+          <div class="video-smart">
+            <video class="video" autoplay playsinline muted loop>
+              <source src="./videos/video-tv-0819.m4v" type="video/mp4">
+            </video>
+          </div>
+
+        </div>
+
+      </div>
+
+      
+    </section><!--Fim/ Conteudos-->
+
+  </body>
