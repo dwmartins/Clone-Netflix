@@ -202,6 +202,100 @@ nav{
     object-fit: contain;
 }
 
+.phone {
+    border-top: 10px solid #222222;
+}
+
+.conteudo-phone {
+    width: 600px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.conteudo-phone h1 {
+    font-size: 3em;
+    margin-bottom: 5px;
+    padding: 15px;
+}
+
+.conteudo-phone h3 {
+    font-size: 1.5em;
+    font-weight: lighter;
+    padding: 15px;
+}
+
+.container-phone {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.img-phone {
+    width: 500px;
+    height: 400px;
+    position: relative;
+}
+
+.baixar-phone {
+    width: 70%;
+    height: 20%;
+    border-radius: 10px;
+    border: 2px solid rgba(255, 255, 255, 0.37);
+    position: absolute;
+    left: 70px;
+    bottom: 15%;
+    display: flex;
+    background: #000;
+}
+.stranger {
+    padding-left: 8px;
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.stranger img {
+    width: 100%;
+}
+
+.img-phone img {
+    width: 100%;
+}
+
+.incon-baixar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 25px;
+}
+
+.img-phone i {
+    color: #005FAE;
+}
+
+.conteudos-stranger {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 15px;
+}
+
+.conteudos-stranger h3 {
+    color: #fff;
+}
+
+.conteudos-stranger h4 {
+    color: #005FAE;
+}
 
 @media (max-width: 575.98px){
     #home {
@@ -270,7 +364,7 @@ nav{
     /* conteudos */
 
     .smart-text h1 {
-        font-size: 2em;
+        font-size: 1.6em;
         text-align: center;
     }
 
@@ -279,6 +373,38 @@ nav{
         line-height: 25px;
         text-align: center;
     }
+
+
+    .conteudo-phone {
+        margin-top: 30px;
+        text-align: center;
+        height: 150px;
+    }
+
+    .conteudo-phone h1 {
+        font-size: 1.6em;
+        margin-bottom: 20px;
+        padding: 0;
+    }
+
+    .conteudo-phone h3 {
+        font-size: 1em;
+        padding: 0;
+    }
+
+    .baixar-phone {
+        width: 70%;
+        height: 18%;
+        left: 55px;
+        bottom: 34%;
+    }
+
+    .incon-baixar {
+        margin-right: 30px;
+    }
+
+
+
 }
 
 @media (min-width: 576px) and (max-width: 767.98px){
